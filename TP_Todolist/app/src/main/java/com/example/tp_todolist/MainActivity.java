@@ -1,4 +1,4 @@
-package com.example.tpapplicationmobile;
+package com.example.tp_todolist;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,8 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
-
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private ArrayAdapter<Task> adapter;
     private TaskList taskList = new FacticeStorageTasks().ReadTasks();
@@ -32,13 +31,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         adapter = new ArrayAdapter<Task>(this, android.R.layout.simple_list_item_1, taskList.getTask());
 
         listviewTask.setAdapter(adapter);
-        listviewTask.setOnItemClickListener(this);
+        listviewTask.setOnItemClickListener(this::onItemClick);
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
     {
-        Intent intent = new Intent(this,EditParameters.class);
+        Intent intent = new Intent(this,EditTaskActivity.class);
         Task task = taskList.getTask().get(i);
         currentIndex=i;
 
@@ -58,4 +57,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         }
     }
+
 }

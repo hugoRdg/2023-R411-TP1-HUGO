@@ -1,4 +1,4 @@
-package com.example.tpapplicationmobile;
+package com.example.tp_todolist;
 
 import java.io.Serializable;
 

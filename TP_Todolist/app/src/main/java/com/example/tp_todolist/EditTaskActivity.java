@@ -1,4 +1,4 @@
-package com.example.tpapplicationmobile;
+package com.example.tp_todolist;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RatingBar;
 
-public class EditParameters extends AppCompatActivity {
+public class EditTaskActivity extends AppCompatActivity {
 
     private EditText title;
     private EditText description;
@@ -34,6 +34,4 @@ public class EditParameters extends AppCompatActivity {
         this.description.setText(task.getDescription());
         this.ratingBar.setRating(task.getPriority());
     }
-
-
 }
