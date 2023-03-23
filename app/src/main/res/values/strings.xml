@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TPApplicationMobile</string>
+    <string name="title_name">Tâches à faire</string>
+    <string name="button_PasDeTri">Pas de tri</string>
+    <string name="bouton_TriParTitre">Tri par titre</string>
+    <string name="Bouton_TriParImportance">Tri par importance</string>
+</resources>

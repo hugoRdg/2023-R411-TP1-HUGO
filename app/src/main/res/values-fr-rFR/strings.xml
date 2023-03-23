@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TPApplicationMobile</string>
+    <string name="title_name">Task to do</string>
+    <string name="button_PasDeTri">No tri</string>
+    <string name="bouton_TriParTitre">Title tri</string>
+    <string name="Bouton_TriParImportance">Importance tri</string>
+</resources>
