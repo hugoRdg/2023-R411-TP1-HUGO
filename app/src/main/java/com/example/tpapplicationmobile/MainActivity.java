@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<Task>(this,
                 android.R.layout.simple_list_item_1, taskList.getTask());
         listviewTask.setAdapter(adapter);
+        taskList.setOnItemClickListener(this);
     }
 }

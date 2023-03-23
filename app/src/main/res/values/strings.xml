@@ -4,4 +4,10 @@
     <string name="button_PasDeTri">Pas de tri</string>
     <string name="bouton_TriParTitre">Tri par titre</string>
     <string name="Bouton_TriParImportance">Tri par importance</string>
+    <string name="text_Editer_Tache">Editer une tâche</string>
+    <string name="label_titre">Titre</string>
+    <string name="label_Description">Description</string>
+    <string name="label_Importance">Importance :</string>
+    <string name="Hint_Description">Entrer le texte</string>
+    <string name="Hint_titre">Entrer le texte</string>
 </resources>
