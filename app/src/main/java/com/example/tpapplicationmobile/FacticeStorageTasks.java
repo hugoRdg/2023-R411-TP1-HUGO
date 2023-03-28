@@ -7,6 +7,10 @@ import java.util.ArrayList;
 public class FacticeStorageTasks implements IStorageTasks
 {
 
+    /**
+     * On va pouvoir tester l'application à l'aide de tâches créée soit même
+     * @return la fake liste des tâches
+     */
     @Override
     public TaskList ReadTasks() {
         TaskList taskList = new TaskList();
@@ -19,12 +23,20 @@ public class FacticeStorageTasks implements IStorageTasks
         return taskList;
     }
 
+    /**
+     * Ajout de tâches
+     * @param task
+     */
     @Override
     public void AddTask(Task task)
     {
 
     }
 
+    /**
+     * Mise à jour des tâches
+     * @param task
+     */
     @Override
     public void UpdateTask(Task task)
     {

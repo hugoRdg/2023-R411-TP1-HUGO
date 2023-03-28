@@ -59,7 +59,12 @@ public class EditParameters extends AppCompatActivity {
             finish();
     }
 
-    
+    /**
+     * OnActivityResult
+     * @param requestCode
+     * @param resultCode
+     * @param data
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data)
     {
