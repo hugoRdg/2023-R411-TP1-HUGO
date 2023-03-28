@@ -9,6 +9,13 @@ public class Task implements Serializable
     private int priority;
     private boolean completed;
 
+    /**
+     * Constructeur de Task
+     * @param title
+     * @param description
+     * @param priority
+     * @param completed
+     */
     public Task(String title, String description, int priority, boolean completed)
     {
         this.title = title;
@@ -63,6 +70,7 @@ public class Task implements Serializable
      * On retrouve le get et set pour le boolean completed
      *
      * @return
+     *
      */
     public boolean isCompleted()
     {
@@ -74,6 +82,10 @@ public class Task implements Serializable
         this.completed = completed;
     }
 
+    /**
+     * Notre affichage
+     * @return
+     */
     public String toString()
     {
         return this.isCompleted() + this.getTitle() + this.getDescription() + this.getPriority();

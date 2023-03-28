@@ -18,4 +18,16 @@ public class FacticeStorageTasks implements IStorageTasks
         taskList.setTask(tasks);
         return taskList;
     }
+
+    @Override
+    public void AddTask(Task task)
+    {
+
+    }
+
+    @Override
+    public void UpdateTask(Task task)
+    {
+
+    }
 }

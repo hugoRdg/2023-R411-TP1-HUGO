@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         adapter = new ArrayAdapter<Task>(this, android.R.layout.simple_list_item_1, taskList.getTask());
 
         listviewTask.setAdapter(adapter);
-        listviewTask.setOnItemClickListener(this::onItemClick);
+        listviewTask.setOnItemClickListener(this);
     }
 
     @Override

@@ -6,5 +6,9 @@ package com.example.tp_todolist;
  */
 public interface IStorageTasks
 {
+    /**
+     * Lis nos tâches
+     * @return TaskList
+     */
     public TaskList ReadTasks();
 }
